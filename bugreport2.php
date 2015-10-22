@@ -459,6 +459,36 @@
 					sleep(5);
 					?>
 
+					<P>
+					The suggested fix is: http://stackoverflow.com/a/32648125/295660
+					NEED THROUGH TESTING AND VERIFICATION!!!!
+					<pre>
+html, body {
+        height: 100%;
+}
+
+div.page-container {
+        height: 100%;
+        xborder: 2px dashed #d0d0d0;
+}
+
+div.content-wrapper {
+        xborder: 1px solid navy;
+        height: 100%;
+}
+
+div.content {
+        xborder: 1px solid black;
+        display: block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        -moz-transform: translateY(-50%) !important;
+        -webkit-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+}
+					</pre>
+
 					<!-- Footer -->
 					<div class="footer text-muted">
 						&copy; 2015. <a href="#">Limitless Web App Kit</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
